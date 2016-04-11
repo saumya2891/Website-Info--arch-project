@@ -1,3 +1,3 @@
 # flavors-of-india
-Info arch project
-First test commit
+Info arch project : http://templated.co/autonomy
+
