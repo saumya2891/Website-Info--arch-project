@@ -1,2 +1,3 @@
 # flavors-of-india
-Info arch project
+Info arch project : http://templated.co/autonomy
+
