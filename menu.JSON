@@ -1,0 +1,188 @@
+[
+{
+  "catname":"Appetizers",
+  "catimg":"Veg-pakoda.jpg",
+  "catdesc":"",
+  "catitems": [
+    {
+      "subname":"Vegetable Pakoda",
+      "subimg":"Veg-pakoda.jpg",
+      "subdesc":"Seasoned potatoes and green peas filled in crisp turnovers",
+      "subprice":"3.50"
+    },
+    {
+       "subname":"Samosaa Chaat",
+      "subimg":"",
+      "subdesc":" Two samosas topped with Punjabi chickpeas, vegetables, and chutney",
+      "subprice":"6.95"
+    },
+    {
+       "subname":"Chilli Pakoda",
+      "subimg":"",
+      "subdesc":" Spicy green chilis dipped in batter and fried",
+      "subprice":"3.95"
+    },
+    {
+       "subname":"Mixed Platter",
+      "subimg":"",
+      "subdesc":" Samosa, vegetable pakora, and chicken pakora",
+      "subprice":"6.95"
+    }
+    ]
+},
+{
+   "catname":"Breads",
+  "catimg":"bread naan.jpg",
+  "catdesc":"",
+  "catitems": [
+    {
+      "subname":"Butter Naan",
+      "subimg":"bread naan.jpg",
+      "subdesc":" Traditional Punjabi white bread",
+      "subprice":"1.95"
+    },
+    {
+       "subname":"Tandoori Roti",
+      "subimg":"",
+      "subdesc":"Baked unleavened whole wheat bread",
+      "subprice":"1.95"
+    },
+    {
+       "subname":"Garlic Naan",
+       "subimg":"",
+      "subdesc":"Naan topped with fresh garlic and herbs",
+      "subprice":"2.50"
+    },
+    {
+       "subname":"Paratha",
+      "subimg":"",
+      "subdesc":"Multilayered flatbread",
+      "subprice":"2.50"
+    }
+    ]
+},
+{
+  "catname":"Soups and Salad",
+  "catimg":"sambhar.jpg",
+  "catdesc":"",
+  "catitems": [
+    {
+      "subname":"Lentil Soup",
+      "subimg":"",
+      "subdesc":"Puréed lentils with delicate spices",
+      "subprice":"2.50"
+    },
+    {
+       "subname":"Sambhar",
+      "subimg":"sambhar.jpg",
+      "subdesc":"A South-Indian-style lentil and vegetable soup",
+      "subprice":"1.95"
+    },
+    {
+       "subname":"Tomato Soup",
+      "subimg":"",
+      "subdesc":"Puréed tomatoes and spices",
+      "subprice":"2.50"
+    },
+    {
+       "subname":"Chicken Soup",
+      "subimg":"",
+      "subdesc":"Delicately spiced chicken soup",
+      "subprice":"3.50"
+    }
+    ]
+},
+{
+  "catname":"Biryani",
+  "catimg":"biryani.jpg",
+  "catdesc":"",
+  "catitems": [
+    {
+      "subname":"Vegetable Biryani",
+      "subimg":"biryani.jpg",
+      "subdesc":"Vegetables cooked with fragrant basmati rice, nuts, and raisins",
+      "subprice":"10.95"
+    },
+    {
+       "subname":"Chicken Biryani",
+      "subimg":"",
+      "subdesc":" Basmati rice cooked with boneless chicken, vegetables, nuts, and raisins",
+      "subprice":"11.95"
+    },
+    {
+       "subname":"Lamb Biryani",
+      "subimg":"",
+      "subdesc":" Basmati rice cooked with boneless lamb, vegetables, nuts, and raisins",
+      "subprice":"12.95"
+    },
+    {
+       "subname":"Shrimp Biryani",
+      "subimg":"",
+      "subdesc":" Shrimp cooked with rice and spices, garnished with nuts and raisins",
+      "subprice":"13.95"
+    }
+    ]
+},
+{
+  "catname":"Vegetable Specialities",
+  "catimg":"paneer.jpg",
+  "catdesc":"",
+  "catitems": [
+    {
+      "subname":"Paneer Tikka Masala",
+      "subimg":"paneer.jpg",
+      "subdesc":" Homemade cheese cooked with a flavorful tomato sauce",
+      "subprice":"10.95"
+    },
+    {
+       "subname":"Malai Kofta",
+      "subimg":"",
+      "subdesc":"Fresh vegetables and cheese croquettes simmered in a mild cream sauce",
+      "subprice":"10.95"
+    },
+    {
+       "subname":"Chilli Paneer",
+      "subimg":"",
+      "subdesc":"Cubes of paneer sautéed with onions and bell peppers in a tangy sauce",
+      "subprice":"10.95"
+    },
+    {
+       "subname":"Chana Masala",
+      "subimg":"",
+      "subdesc":"Chickpeas cooked with herbs and spices, Punjabi style",
+      "subprice":"10.95"
+    }
+    ]
+},
+{
+  "catname":"Desserts",
+  "catimg":"dessert.jpg",
+  "catdesc":"",
+  "catitems": [
+    {
+      "subname":"Gulab Jamun",
+      "subimg":"dessert.jpg",
+      "subdesc":"Homemade soft milk balls dipped in honey syrup",
+      "subprice":"3.50"
+    },
+    {
+       "subname":"Ras Malai",
+      "subimg":"",
+      "subdesc":" Homemade cheese pieces dipped in sweetened milk, flavored with pistachios and rose water, served cold",
+      "subprice":"2.95"
+    },
+    {
+       "subname":"Carrot Halwa",
+      "subimg":"",
+      "subdesc":"Shredded carrots cooked with nuts and milk",
+      "subprice":"2.95"
+    },
+    {
+       "subname":"Badam Kheer",
+      "subimg":"",
+      "subdesc":"Homemade rice pudding flavored with cardamom and blended with almonds and raisins",
+      "subprice":"2.95"
+    }
+    ]
+}
+]
