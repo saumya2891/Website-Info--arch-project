@@ -1,13 +1,14 @@
 /**
  * Created by yangyang on 4/12/16.
  */
-(function(){
+(function () {
     angular.module("myApp", ['ngRoute'])
         .config(configuration)
         .controller('headerController', headerController)
-        .controller('menuController', menuController);
+        .controller('menuController', menuController)
+        .filter('encodeURI', encodeURI);;
 
-    function configuration($routeProvider){
+    function configuration($routeProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: "views/home.html",
@@ -34,13 +35,35 @@
 
     }
 
-    function headerController($location){
+    function headerController($location) {
         var vm = this;
         vm.$location = $location;
 
     }
 
-    function menuController(){
+    function menuController($http, $location, $routeParams) {
+        var vm = this;
+        vm.menu = {};
+        console.log($location.url());
+        vm.currentCat = $routeParams.item;
+        vm.checkActive = function(name) {
+            if('/menu/' + window.encodeURI(name) == $location.url()) return "active";
+        }
 
+        $http.get('menu.json')
+            .then(function (res) {
+                vm.menu = res.data;
+                if (vm.currentCat) {
+                    for (var idx in vm.menu) {
+                        if (vm.menu[idx].catname == vm.currentCat) {
+                            vm.entries = vm.menu[idx].catitems;
+                        }
+                    }
+                }
+            });
+    }
+
+    function encodeURI(){
+        return window.encodeURI;
     }
 })();
