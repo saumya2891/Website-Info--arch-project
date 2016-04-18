@@ -1,7 +1,41 @@
-.menuCat {
 
+
+
+/* == HEADER == */
+#header {
+    background-color: #3C1700;
 }
+
+#header a {
+    color: white;
+}
+
+ul li.active {
+    background-color: rgba(119, 34, 0, 0.7) !important;
+    color: rgba(100, 30, 0, 0.87);
+    font-size: larger;
+}
+
+#online-link {
+    background-color: rgba(100, 30, 0, 0.87);
+}
+
+
+/* == ENTRY == */
 
 .entry{
     width: 300px;
+}
+
+
+
+
+/* == FOOTER == */
+#footer {
+    background-color: #3C1700;
+    color: white;
+}
+
+#emaillist {
+    padding-top: 40px;
 }
