@@ -27,8 +27,14 @@ ul li.active {
     width: 300px;
 }
 
+/*==CONTACT==*/
+.directions{
+    height:450px;
+}
 
-
+.map {
+    height: 400px;
+}
 
 /* == FOOTER == */
 #footer {
