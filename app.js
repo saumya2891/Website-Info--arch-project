@@ -53,6 +53,7 @@
         $http.get('menu.json')
             .then(function (res) {
                 vm.menu = res.data;
+                vm.chunkedData = chunk(vm.menu, 3);
                 if (vm.currentCat) {
                     for (var idx in vm.menu) {
                         if (vm.menu[idx].catname == vm.currentCat) {
@@ -61,6 +62,16 @@
                     }
                 }
             });
+
+        function chunk(arr, size) {
+            var newArr = [];
+            for (var i=0; i<arr.length; i+=size) {
+                newArr.push(arr.slice(i, i+size));
+            }
+            return newArr;
+        }
+
+
     }
 
     function encodeURI(){
