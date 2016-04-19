@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-
-<div data-ng-include="'views/header.html'"></div>
-<div class="container">
-    <div data-ng-view></div>
+<body id="whole">
+<div id="wrap">
+	<div data-ng-include="'views/header.html'"></div>
+	<div class="container">
+		<div data-ng-view></div>
+	</div>
+<div id="push"></div>
+<div id="mainfoot" data-ng-include="'views/footer.html'"></div>
 </div>
-<div data-ng-include="'views/footer.html'"></div>
-
 
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
