@@ -55,3 +55,9 @@ body{
 	color:black;
 	margin-top:4px;
 }
+.thumbnail{
+	width:200px;
+	height:200px;
+}
+#entryItems{
+	margin-bottom:10px;

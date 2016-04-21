@@ -8,10 +8,10 @@
     </div>
     <div class="col-md-8">
         <div class="list-group">
-            <div class="list-group-item" ng-repeat="entry in model.entries">
+            <div id="entryItems" class="list-group-item" ng-repeat="entry in model.entries">
                 <h4 class="list-group-item-heading">{{entry.subname}}</h4>
                 <p class="list-group-item-text">{{entry.subdesc}} {{entry.subprice}}</p>
-                <img class="entry" ng-src="img/menu/{{entry.subimg}}" alt="{{entry.subdesc}}">
+                <img class="entry" ng-src="img/menu/{{entry.subimg}}" alt="{{entry.subname}}">
             </div>
         </div>
     </div>
