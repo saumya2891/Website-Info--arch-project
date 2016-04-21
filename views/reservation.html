@@ -1,25 +1,18 @@
 <h1 class="text-center">Make a Reservation</h1>
 <div>
-    
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
+    <div class="row">
+		<div class="col-sm-12 well text-center">
 				<h4>Call Us</h4>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
 				<p>812-333-1399</p>
-			</div>
 		</div>
 	</div>
-	<br>
 	<div class="text-center">
 		<strong><p>OR</p></strong>
 	</div>
 	
 	<form class="form-horizontal">
         <div class="form-group container well">
+		<h4 class="text-center">Send a request</h4>
 			<div class="row">
 				<div class = "col-sm-1">
 					<label for="name" class="control-label">Name: </label>
@@ -30,8 +23,8 @@
 				<div class = "col-sm-1">
 					<label for="email" class="control-label">Email: </label>
 				</div>
-				<div class = "col-sm-3">
-					<input type="email" class="form-control" id="email" placeholder="yourname@sample.com">
+				<div class = "col-sm-2">
+					<input type="email" class="form-control" id="email" placeholder="name@sample.com">
 				</div>
 				<div class = "col-sm-1">
 					<label for="date" class="control-label">Date: </label>
@@ -39,8 +32,8 @@
 				<div class = "col-sm-2">
 					<input type="date" class="form-control" id="date">
 				</div>
-				<div class = "col-sm-1">
-					<label for="number" class="control-label">#people: </label>
+				<div class = "col-sm-2">
+					<label for="number" class="control-label">Number of people: </label>
 				</div>
 				<div class = "col-sm-1">
 					<input type="number" class="form-control" id="number" min="1" max="10">
@@ -54,14 +47,12 @@
 				<div class="col-sm-10">
 					<textarea name="msg" id="msg" cols="30" rows="10" class="form-control"></textarea>
 				</div>
-				
-				
+			</div>
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
 			</div>
 		</div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Submit</button>
-            </div>
-        </div>
     </form>
 </div>
