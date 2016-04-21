@@ -9,9 +9,16 @@
     <div class="col-md-8">
         <div class="list-group">
             <div id="entryItems" class="list-group-item" ng-repeat="entry in model.entries">
-                <h4 class="list-group-item-heading">{{entry.subname}}</h4>
-                <p class="list-group-item-text">{{entry.subdesc}} {{entry.subprice}}</p>
-                <img class="entry" ng-src="img/menu/{{entry.subimg}}" alt="{{entry.subname}}">
+				<div class = "row">
+					<div class = "col-md-4">
+						<h4 class="list-group-item-heading">{{entry.subname}}</h4>
+						<h4><strong>{{entry.subprice}}$</strong></h4>
+						<p class="list-group-item-text">{{entry.subdesc}} </p>
+					</div>
+					<div class = "col-md-8 text-center">
+						<img class="entry" ng-src="img/menu/{{entry.subimg}}" alt="{{entry.subname}}">
+					</div>
+				</div>
             </div>
         </div>
     </div>
