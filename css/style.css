@@ -56,11 +56,9 @@ body{
 	margin-top:4px;
 }
 .thumbnail{
-	width:200px;
-	height:200px;
+	min-height:200px;
 }
 #entryItems{
-	margin-bottom:10px;
 	min-height:200px;
 }
 #submenuimg{
