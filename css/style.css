@@ -48,7 +48,7 @@ ul li.active {
 
 body{
   	background-image: url("../img/wallpaper.jpg");
-	background-repeat:no-repeat;
+	/* background-repeat:no-repeat; */
     background-size:100% 100%;
 }
 #emailbox{
@@ -63,4 +63,11 @@ body{
 }
 #submenuimg{
 	zoom:50%;
+}
+
+h1,h2,h4{
+	color: #cc0d1c !important;
+}
+.well {
+	background-image: url("../img/well.png") !important;
 }
