@@ -61,6 +61,7 @@ body{
 }
 #entryItems{
 	margin-bottom:10px;
+	min-height:200px;
 }
 #submenuimg{
 	zoom:50%;
