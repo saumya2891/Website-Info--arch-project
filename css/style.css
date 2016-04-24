@@ -48,8 +48,6 @@ ul li.active {
 
 body{
   	background-image: url("../img/wallpaper.jpg");
-	/* background-repeat:no-repeat; */
-    background-size:100% 100%;
 }
 #emailbox{
 	color:black;
