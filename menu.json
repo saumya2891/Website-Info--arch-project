@@ -1,12 +1,12 @@
-﻿[
+[
 {
   "catname":"Appetizers",
-  "catimg":"Veg-pakora.jpg",
+  "catimg":"Veg-Pakora.jpg",
   "catdesc":"",
   "catitems": [
     {
       "subname":"Vegetable Pakoda",
-      "subimg":"Veg-pakora.jpg",
+      "subimg":"Veg-Pakora.jpg",
       "subdesc":"Seasoned potatoes and green peas filled in crisp turnovers",
       "subprice":"3.50"
     },
