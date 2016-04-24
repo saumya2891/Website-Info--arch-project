@@ -69,3 +69,6 @@ h1,h2,h4{
 .well {
 	background-image: url("../img/well.png") !important;
 }
+.navbar-nav > .active > a{
+	background-color: brown !important;
+}
