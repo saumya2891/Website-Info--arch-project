@@ -6,7 +6,7 @@
 6. popular items carasoule
 
 for satwik:
-grid space
+grid space -- not worth
 remove underline in menu --done
 logo link --done
 order online colors
