@@ -9,5 +9,5 @@ for satwik:
 grid space -- not worth
 remove underline in menu --done
 logo link --done
-order online colors
-footer margin
+order online colors -- done
+footer margin -- done
