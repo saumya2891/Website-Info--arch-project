@@ -116,6 +116,6 @@ p,.myfont{
 .navbar-nav > .active > a{
 	background-color: brown !important;
 }
-.pull-left{
+#logo{
 	height: 50px!important;
 }
