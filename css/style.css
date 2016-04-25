@@ -57,6 +57,7 @@ body{
 }
 .thumbnail{
 	min-height:200px;
+	text-decoration:none !important;
 }
 #entryItems{
 	min-height:200px;

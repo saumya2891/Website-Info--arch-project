@@ -7,7 +7,7 @@
 
 for satwik:
 grid space
-remove underline in menu
-logo link
+remove underline in menu --done
+logo link --done
 order online colors
 footer margin
