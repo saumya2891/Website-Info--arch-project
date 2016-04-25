@@ -209,7 +209,7 @@
     {
       "subname":"Tandoori Chicken",
       "subimg":"tandoor.jpg",
-      "subdesc":"Chicken legs marinated in homemade fresh yogurt and freshly ground herbs, tenderly barbecued in our clay oven",
+      "subdesc":"Chicken legs marinated in yogurt and freshly ground herbs, tenderly barbecued in our clay oven",
       "subprice":"12.95"
     },
     {
@@ -316,7 +316,7 @@
  
 {
    "catname":"Lamb and Goat",
-  "catimg":"lamb-and-goat.jpg",
+  "catimg":"lamb-tikka-masala.jpg",
   "catdesc":"",
   "catitems": [
     {
@@ -405,7 +405,7 @@
 },
 {
   "catname":"Vegetable Specialities",
-  "catimg":"paneer.jpg",
+  "catimg":"paneer-makhani.jpg",
   "catdesc":"",
   "catitems": [
     {

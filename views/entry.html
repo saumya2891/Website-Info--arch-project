@@ -1,6 +1,6 @@
 <div class="row">
     <div class="list-group col-md-4">
-        <a href="#/menu/{{item.catname}}" class="list-group-item"
+        <a href="#/menu/{{item.catname}}" class="list-group-item" id="submenuside"
            ng-class="model.checkActive(item.catname)"
            ng-repeat="item in model.menu">
             {{item.catname}}
@@ -10,10 +10,10 @@
         <div class="list-group">
             <div id="entryItems" class="list-group-item col=xs-12 col-md-6" ng-repeat="entry in model.entries">
 				<div class = "row">
-					<div class = "col-md-6 text-left">
+					<div class = "col-md-9 text-left">
 						<h4 class="list-group-item-heading">{{entry.subname}}</h4>
 					</div>
-					<div class = "col-md-6 text-right">
+					<div class = "col-md-3 text-center">
 						<h4 class="list-group-item-heading">${{entry.subprice}}</h4>
 					</div>
 				</div>
