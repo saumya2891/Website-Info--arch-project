@@ -5,3 +5,9 @@
 5. ppt
 6. popular items carasoule
 
+for satwik:
+grid space
+remove underline in menu
+logo link
+order online colors
+footer margin
