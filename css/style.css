@@ -53,8 +53,8 @@
 	padding-top:10px;
 }
 
-.body{
-	background-image: url("img/p5.jpeg") ;
+body{
+	background-image: url("../img/p5.jpeg") ;
 }
 #emailbox{
 	color:black;
