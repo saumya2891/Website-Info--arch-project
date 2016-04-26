@@ -127,3 +127,7 @@ p,.myfont{
 #logo{
 	height: 50px!important;
 }
+
+div.zoom:hover{
+	zoom: 130% !important;
+}
