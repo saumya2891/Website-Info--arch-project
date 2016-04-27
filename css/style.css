@@ -128,6 +128,10 @@ p,.myfont{
 	height: 50px!important;
 }
 
-div.zoom:hover{
-	zoom: 130% !important;
+.zoom:hover{
+	transform:scale(1.2);
+    -ms-transform:scale(1.2); /* IE 9 */
+    -moz-transform:scale(1.2); /* Firefox */
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -o-transform:scale(1.2); /* Opera */
 }
