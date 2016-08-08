@@ -1,3 +1,7 @@
 # flavors-of-india
-Info arch project : http://templated.co/autonomy
+Information Architecture project.
+Contributors : 
+Saumya Pandey
+Satwik Narlanka 
+Yang Yang 
 
